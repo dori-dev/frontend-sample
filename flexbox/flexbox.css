@@ -1,0 +1,37 @@
+/*
+flex-direction: row;
+main axis -> horizontal(left to right)
+cross axis -> vertical(top to button)
+flex-direction: column;
+main axis -> vertical(top to button)
+cross axis -> horizontal(left to right)
+main axis -> justify-content
+cross axis -> align-items
+
+display: flex;
+flex-direction -> row, column
+justify-content
+align-items
+flex-wrap
+
+flex: x;
+  flex-grow
+  flex-shrink
+  flex-basis
+align-self
+order
+*/
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.search {
+}
+
+.home {
+}
+
+.login {
+}
