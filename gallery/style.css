@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-flow: dense;
+  gap: 10px;
+}
+
+.container > div img {
+  width: 100%;
+  height: 100%;
+}
+
+.vertical {
+  grid-row: auto/span 2;
+}
+
+.horizontal {
+  grid-column: auto/span 2;
+}
+
+.big {
+  grid-row: auto/span 2;
+  grid-column: auto/span 2;
+}
