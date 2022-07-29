@@ -1,0 +1,16 @@
+.container > div {
+    padding: 30px;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div:nth-child(even) {
+    background-color: #2980b9;
+}
+
+.container > div:nth-child(odd) {
+    background-color: #7f8c8d;
+}
