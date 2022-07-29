@@ -1,6 +1,6 @@
 # Some Python Codes
 
-Some frontend concept, link **flex box**, **css grid** and **responsive website**!
+Some frontend concept, like **flex box**, **css grid** and **responsive website**!
 
 #
 
