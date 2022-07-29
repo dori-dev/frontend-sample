@@ -1,0 +1,30 @@
+@media screen and (max-width: 900px) {
+  main {
+    grid-template-columns: 2fr 4fr;
+  }
+  main .content .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    font-size: 1.3em;
+  }
+  main {
+    grid-template-columns: 1fr;
+  }
+  main .menu {
+    display: none;
+  }
+  main .content .cards {
+    grid-template-columns: 1fr;
+  }
+  header nav {
+    flex-direction: column;
+  }
+  header nav span {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
