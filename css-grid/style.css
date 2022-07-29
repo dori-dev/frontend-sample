@@ -1,0 +1,24 @@
+.container > div {
+    padding: 30px;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color:#6c5ce7;
+}
+
+.content {
+    background-color: #636e72;
+}
+
+.menu {
+    background-color: #e84393;
+}
+
+.footer {
+    background-color: #00b894;
+}

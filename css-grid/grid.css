@@ -1,0 +1,64 @@
+/* Grid Template Row and Column */
+
+.container {
+  display: grid;
+  /* grid-template-columns: 1fr 2fr 1fr; */
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px 300px 150px;
+  /* row-gap: 2px;
+    column-gap: 2px; */
+  gap: 2px;
+}
+
+.header {
+  /*
+  from line 1 to line 3
+  grid-column: 1/3;
+  from line 1 to 2 line after it
+  grid-column: 1/span 2;
+  rom line 1 to end line
+  grid-column: 3/-1;
+  */
+  grid-column: 3/-1;
+}
+
+.menu {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.content {
+  grid-column: 3/-1;
+}
+
+.footer {
+  grid-column: 1/-1;
+}
+
+/* Grid Template Aria */
+
+.container {
+  display: grid;
+  grid-template-rows: 100px 300px 150px;
+  grid-template-areas:
+    "m m h h h h h h h h h h"
+    "m m c c c c c c c c c c"
+    "f f f f f f f f f f f f";
+  gap: 2px;
+}
+
+.header {
+  grid-area: h;
+}
+
+.menu {
+  grid-area: m;
+}
+
+.content {
+  grid-area: c;
+}
+
+.footer {
+  grid-area: f;
+}
